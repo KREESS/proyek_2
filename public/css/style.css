@@ -1,0 +1,53 @@
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+footer p {
+    margin-bottom: 0;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.btn-primary {
+    background-color: black; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    transition: background-color 0.3s, color 0.3s; /* Efek transisi untuk perubahan warna */
+}
+
+/* Warna tombol saat dihover */
+.hover-effect:hover {
+    background-color: white;
+    color: black;
+}
+
+.card-footer {
+    color: #fff;
+    background-color: #f8f9fa;
+}
+
+.card-body {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
